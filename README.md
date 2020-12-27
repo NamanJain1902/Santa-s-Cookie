@@ -10,13 +10,13 @@ Fret not, he is our loving Santa.💖🎶
 
 * ### $hhhh... it's Santa's secret PORTAL.
 
-<img src='./RDIMG/login.png'>
+![](RDIMG/login.PNG)
 
 * ### Just by adding recipient's id, he can send any amount of cookies to the person. 
-<img src='./RDIMG/portal.png'>
+![](RDIMG/portal.PNG)
 
-* ### And here he sent 5 cookie. Thanks to blockchain, coronavirus not gonna tamper it.
-<img src='./RDIMG/sent.png'>
+* ### And here he sent 8 cookies. Thanks to blockchain, no virus gonna tamper it.
+![](RDIMG/sent.PNG)
 
 
 > Django🤗Reactify🤗Blockchain🤩...
