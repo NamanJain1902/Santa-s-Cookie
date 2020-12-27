@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+
+.root__bg {
+    z-index: -1;
+}
+.root__container {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://images.unsplash.com/photo-1513297887119-d46091b24bfa?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzZ8fGhvbGlkYXl8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    backgroundSize: cover;
+    backgroundPosition: 'center';
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+.loginBox {
+    display: flex;
+    margin:10% auto;
+}
+.logged {
+    width: 50%;
+    paddding: 2%;
+    background-image: url("https://images.unsplash.com/photo-1575162414524-39880c46bae4?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTZ8fGNocmlzdG1hcyUyMHRyZWV8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    backgroundRepeat: 'no-repeat'
+}
+.logged > form > h5 {
+    color: white;
+}
+.logged > form > p {
+    color: white;
+}
+.right {
+    width: 40%;
+}
+.login__heading {
+    font-family: 'Langar', cursive;
+    color: white;
+    margin :10%;
+}
+.condition {
+    text-align: center;
+    color: white;
+}
