@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import './App.css';
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom"
 import Register from './relog/register'
-import Status from './components/status'
-import Send from './components/send'
-import Transactions from './components/transactions'
+// import Status from './components/status'
+// import Send from './components/send'
+// import Transactions from './components/transactions'
 import axios from 'axios';
 
 const endpoint = '/mine_block'
@@ -20,14 +20,10 @@ class App extends Component {
     <Router>
      <div className="App">
        <Switch>
-        <Route path="/">
-            <Register />
-        </Route>
-        <Route path="/santa's-portal">
-            <Status/>
-            <Send/>
-            <Transactions/>
-        </Route>
+        <Route path="/" component={Register}/>
+        {/* <Route path="/">
+
+        </Route> */}
        </Switch>
      </div>
     </Router>
